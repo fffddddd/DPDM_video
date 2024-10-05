@@ -4,7 +4,7 @@ from utils.util import calculate_frechet_distance
 
 
 def main(args):
-    stats1 = np.load(args.path1)
+    stats1 = np.load(args.path1)####
     stats1_mu = stats1['mu']
     stats1_sigma = stats1['sigma']
     stats2 = np.load(args.path2)
